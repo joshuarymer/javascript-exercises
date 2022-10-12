@@ -18,6 +18,7 @@ const multiply = function(array) {
 };
 
 const power = function(a, b) {
+  // Using loop rather than Math.pow 
   let num = a
   for (i = 1; i < b; i++) {
     num *= a;
@@ -35,6 +36,8 @@ const factorial = function(a) {
     return num; 
   }
 };
+
+
 
 // Do not edit below this line
 module.exports = {
